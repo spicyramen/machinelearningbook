@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 virtualenv at ~/Documents/OpenSource/Development/Python/pml_venv" project-jdk-type="Python SDK" />
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <envs>
+          <env key="DBHOST" value="techie8db.cybrtzaphzbb.us-west-1.rds.amazonaws.com" />
+          <env key="DBNAME" value="techie8db_dev" />
+          <env key="DBPASSWORD" value="123_Sanfrancisco" />
+          <env key="DBPORT" value="5432" />
+          <env key="DBUSERNAME" value="ochobits" />
+          <env key="GOOGLE_APPLICATION_CREDENTIALS" value="/Users/gogasca/Documents/OpenSource/Development/Python/gonzo/conf/credentials/techie8-gonzo-dev-fb56110cc288.json" />
+        </envs>
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myEnvs">
+          <map>
+            <entry key="DBHOST" value="techie8db.cybrtzaphzbb.us-west-1.rds.amazonaws.com" />
+            <entry key="DBNAME" value="techie8db_dev" />
+            <entry key="DBPASSWORD" value="123_Sanfrancisco" />
+            <entry key="DBPORT" value="5432" />
+            <entry key="DBUSERNAME" value="ochobits" />
+            <entry key="GOOGLE_APPLICATION_CREDENTIALS" value="$PROJECT_DIR$/../gonzo/conf/credentials/techie8-gonzo-dev-fb56110cc288.json" />
+          </map>
+        </option>
+      </console-settings>
+    </option>
+  </component>
+</project>
