@@ -3,7 +3,12 @@ import numpy as np
 
 class Perceptron(object):
     """
-        Perceptron classifier
+    Perceptron classifier
+
+    eta: float
+        Learning rate (between 0.0 and 1.0)
+    n_iter: int
+        Passes over the training data set
     """
 
     def __init__(self, eta=0.01, n_iter=10):
@@ -18,9 +23,9 @@ class Perceptron(object):
 
     def fit(self, X, y):
         """
-
-        :param X:
-        :param y:
+        Fit training data
+        :param X: {array-like}, shape = [n_samples, n_features] Training vectors
+        :param y: {array-like}, shape = [n_samples] Target values
         :return:
         """
         self.w_ = np.zeros(1 + X.shape[1])
@@ -35,4 +40,19 @@ class Perceptron(object):
                 errors += int(update != 0.0)
             self.errors_.append(errors)
         return self
-   
+
+    def net_input(self, X):
+        """
+        Calculate net input
+        :param X:
+        :return:
+        """
+        return np.dot(X, self.w_[1:]) + self.w_[0]
+
+    def predict(self, X):
+        """
+        Return the class label after unit step
+        :param X:
+        :return:
+        """
+        return np.where(self.net_input(X) >= 0.0, 1, -1)
